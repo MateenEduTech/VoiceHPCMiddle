@@ -1,0 +1,25 @@
+{
+ "name": "Voice Based Summarised Digital HPC - Middle Stage",
+ "short_name": "Digital HPC Middle",
+ "start_url": "./index.html",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#312e81",
+ "theme_color": "#6d28d9",
+ "description": "Voice-assisted Holistic Progress Card for Grades 6-8",
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any maskable"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any maskable"
+  }
+ ]
+}

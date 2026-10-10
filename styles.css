@@ -1,0 +1,14 @@
+:root{--o:#c2410c;--bg:#fff7f0;--c:#fff;--t:#2b2118;--b:#f0d5c2}
+@media(prefers-color-scheme:dark){:root{--bg:#1d1611;--c:#2a211a;--t:#f6ece4;--b:#4a3a2e}}
+*{box-sizing:border-box}body{margin:0;font:16px system-ui,sans-serif;background:var(--bg);color:var(--t);padding-bottom:70px}
+header{background:var(--o);color:#fff;padding:12px 14px}h1{margin:0;font-size:1.1rem}h1 small{display:block;font-weight:400}.tag{margin:4px 0;font-size:.7rem;letter-spacing:.08em}.by{margin:0;font-size:.68rem;opacity:.9}#save{font-size:.7rem;text-align:right}
+main{padding:12px;max-width:900px;margin:auto}.card{background:var(--c);border:1px solid var(--b);border-radius:12px;padding:12px;margin:0 0 12px;box-shadow:0 1px 3px #0002}
+h2{font-size:1.05rem;margin:0 0 8px;color:var(--o)}h3{font-size:.95rem;margin:10px 0 4px}
+input,select,textarea,button{font:inherit;padding:10px;border-radius:8px;border:1px solid var(--b);background:var(--c);color:var(--t);min-height:44px;max-width:100%}
+input[type=checkbox]{min-height:0;width:22px;height:22px}textarea{width:100%}button{background:var(--o);color:#fff;border:0;cursor:pointer;margin:2px}button.alt{background:transparent;color:var(--o);border:1px solid var(--o)}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #2563eb}
+label.row{display:flex;gap:10px;align-items:flex-start;padding:6px 0;border-bottom:1px solid var(--b)}.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:.85rem}td,th{border:1px solid var(--b);padding:4px;text-align:center}td:first-child,th:first-child{text-align:left}td input{width:70px;padding:4px}
+.badge{display:inline-block;font-size:.7rem;padding:2px 8px;border-radius:99px;background:var(--b);margin:2px}.draft{background:#fde68a;color:#000}.ok{background:#bbf7d0;color:#000}.bad{background:#fecaca;color:#000}
+.lvl{font-weight:700;color:var(--o)}nav{position:fixed;bottom:0;left:0;right:0;display:flex;overflow-x:auto;background:var(--c);border-top:2px solid var(--o)}nav button{background:none;color:var(--t);border-radius:0;white-space:nowrap;font-size:.8rem}nav button.on{color:var(--o);font-weight:700;border-bottom:3px solid var(--o)}
+.mic{width:100%;font-size:1.2rem;padding:18px}footer{text-align:center;font-size:.7rem;opacity:.7;padding:8px}
